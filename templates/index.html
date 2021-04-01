@@ -2,7 +2,7 @@
 
 {% block body %} 
     {% if session.name %}
-        You are login
+        You are login. <a href="/logout">Logout</a>.
     {% else %}    
         You are not login. <a href="/login">Login</a>.
     {% endif %}    
